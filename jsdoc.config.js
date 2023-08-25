@@ -9,7 +9,7 @@ module.exports = {
   },
   recurseDepth: 10,
   source: {
-    include: ["./src", "package.json", "README.md"],
+    include: ["./src"],
     includePattern: ".(js|jsx|vue)$",
     excludePattern: "(node_modules|./docs)"
   },
