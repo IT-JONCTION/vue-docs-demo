@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>MyButton - Documentation</title>
+    <title>MyStack - Documentation</title>
 
     <script src="scripts/prettify/prettify.js"></script>
     <script src="scripts/prettify/lang-css.js"></script>
@@ -29,7 +29,7 @@
 
 <div id="main">
     
-    <h1 class="page-title">MyButton</h1>
+    <h1 class="page-title">MyStack</h1>
     
 
     
@@ -47,7 +47,7 @@
     <div class="container-overview">
     
         
-            <div class="description"><p><code>MyButton</code> component.</p></div></div></p>
+            <div class="description"><p><code>MyStack</code> is a flexible container component that allows easy styling of child elements.</p></div></div></p>
 <h3 class="subsection-title" style="margin-top: 1em" data-jsdoc-vuejs="section-props">Props</h3>
 <table class="params" data-jsdoc-vuejs="table-props">
     <thead>
@@ -60,49 +60,23 @@
     </tr>
     </thead>
     <tbody><tr>
-        <td class="name"><code>label</code></td>
-        <td><code>String</code></td>
-        <td>-</td>
-        <td><b>Yes</b></td>
-        <td>The label of the button.</td>
-    </tr><tr>
-        <td class="name"><code>onClick</code></td>
-        <td><code>function</code></td>
-        <td>-</td>
+        <td class="name"><code>spacing</code></td>
+        <td><code>Number</code></td>
+        <td><code>2</code></td>
         <td>No</td>
-        <td>Optional click handler.</td>
-    </tr></tbody>
-</table>
-<h3 class="subsection-title" style="margin-top: 1em" data-jsdoc-vuejs="section-data">Data</h3>
-<table class="params" data-jsdoc-vuejs="table-data">
-    <thead>
-    <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Default value</th>
-        <th>Description</th>
-    </tr>
-    </thead>
-    <tbody><tr>
-        <td class="name"><code>pressed</code></td>
+        <td>Specifies the spacing between child elements. Multiplier of 0.25rem.</td>
+    </tr><tr>
+        <td class="name"><code>wrap</code></td>
         <td><code>Boolean</code></td>
-        <td>-</td>
-        <td>Indicates if the button was pressed.</td>
-    </tr></tbody>
-</table>
-<h3 class="subsection-title" style="margin-top: 1em" data-jsdoc-vuejs="section-computed">Computed</h3>
-<table class="params" data-jsdoc-vuejs="table-computed">
-    <thead>
-    <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Description</th>
-    </tr>
-    </thead>
-    <tbody><tr>
-        <td class="name"><code>status</code></td>
+        <td><code>false</code></td>
+        <td>No</td>
+        <td>Determines whether child items should wrap to the next line/column.</td>
+    </tr><tr>
+        <td class="name"><code>direction</code></td>
         <td><code>String</code></td>
-        <td>Gets the status of the button.</td>
+        <td><code>"row"</code></td>
+        <td>No</td>
+        <td>Direction of the child elements, can be either "row" or "column".</td>
     </tr></tbody>
 </table>
 <div class="container-overview"><div><p></div>
